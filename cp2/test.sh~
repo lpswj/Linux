@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#if test -f fred.c
+if [ -f fred.c ]
+then
+		echo "file exists"
+else
+		echo "file NOT exists"
+fi
+
