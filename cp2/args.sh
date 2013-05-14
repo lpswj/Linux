@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for i in 1 2
+do
+		my_secret_process ${i}_tmp
+done
+
+exit 0
