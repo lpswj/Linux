@@ -6,3 +6,4 @@ int main()
 		bill("hello world\n");
 		exit(0);
 }
+

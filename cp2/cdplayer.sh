@@ -263,7 +263,7 @@ list_tracks()
 						echo
 						echo "$cdtitle :-"
 						echo
-						cut -f 2- -d ,$temp_file
+						cut -f 2- -d , $temp_file
 						echo
 						} | ${PAGER:-more}
 				fi
