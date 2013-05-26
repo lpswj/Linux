@@ -57,7 +57,7 @@ int main()
 
 		/* Next,we add another overlapping window with a box around it. */
 		popup_window_ptr = newwin(10,20,8,8);
-		box(popup_window_ptr,'|','-');
+		box(popup_window_ptr,ACS_VLINE,ACS_HLINE);
 		mvwprintw(popup_window_ptr,5,2,"%s","Pop Up Window!");
 		wrefresh(popup_window_ptr);
 		sleep(2);
