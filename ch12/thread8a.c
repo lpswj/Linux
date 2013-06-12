@@ -16,12 +16,11 @@ int main()
 
 		for(lots_of_threads = 0;lots_of_threads < NUM_THREADS;lots_of_threads++)
 		{
-				res = pthread_create(&(a_thread[lots_of_threads]),NULL,thread_function,(void *)&lots_of_threads);
+				res = pthread_create(&(a_thread[lots_of_threads]),NULL,thread_function,(void *)lots_of_threads);
 				if(res != 0){
 						perror("Thread creation failed");
 						exit(EXIT_FAILURE);
 				}
-		//		sleep(1);
 		}
 
 		printf("Waiting for threads to finish...\n");
@@ -40,7 +39,7 @@ int main()
 
 void *thread_function(void *arg)
 {
-		int my_number = *(int *)arg;
+		int my_number = (int)arg;
 		int rand_num;
 
 		printf("thread_function is running.Argument was %d\n",my_number);
