@@ -1,0 +1,1000 @@
+ 1016  vi argopt.c
+ 1017  cp argopt.c longopt.c
+ 1018  vi longopt.c 
+ 1019  gcc longopt.c -o longopt
+ 1020  ./longopt --initialize --list 'hi there' --file fred.c -q
+ 1021  man getopt_long
+ 1022  man getenv
+ 1023  man -f getenv
+ 1024  man putenv
+ 1025  ls
+ 1026  vi environ.c
+ 1027  gcc environ.c -o environ
+ 1028  ./environ HOME
+ 1029  ./environ FRED
+ 1030  ./environ FRED hello
+ 1031  ./environ FRED
+ 1032  echo $FRED
+ 1033  man putenv
+ 1034  man environ
+ 1035  ls
+ 1036  vi showenv.c
+ 1037  gcc showenv.c -o showenv
+ 1038  ./showenv 
+ 1039  vi showenv.c
+ 1040  ls
+ 1041  printf sizeof(time_t)
+ 1042  vi test.c
+ 1043  gcc test.c
+ 1044  vi test.c
+ 1045  gcc test.c
+ 1046  ./a.out 
+ 1047  vi test.c
+ 1048  gcc test.c
+ 1049  ./a.out 
+ 1050  vi test.c
+ 1051  rm -f a.out 
+ 1052  rm -f test.c
+ 1053  ls
+ 1054  vi envtime.c
+ 1055  gcc envtime.c -o envtime
+ 1056  ./envtime 
+ 1057  vi envtime.c
+ 1058  cp envtime.c test.c
+ 1059  vi test.c
+ 1060  gcc test.c
+ 1061  vi test.c
+ 1062  gcc test.c
+ 1063  ./a.out 
+ 1064  cd ..
+ 1065  ls
+ 1066  cd c/Algorithm/
+ 1067  ls
+ 1068  cd cp2
+ 1069  ls
+ 1070  cd ..
+ 1071  cd cp3
+ 1072  ls
+ 1073  cd ..
+ 1074  cd TheCProgrammingLanguage/
+ 1075  ls
+ 1076  cd cp6
+ 1077  ls
+ 1078  cd ..
+ 1079  cd cp7
+ 1080  ls
+ 1081  vi test.c
+ 1082  vi cat1.c
+ 1083  cd ..
+ 1084  ls
+ 1085  cd cp8
+ 1086  ls
+ 1087  vi cat1.c
+ 1088  vi -t time.h
+ 1089  cd ..
+ 1090  cd cp5
+ 1091  ls
+ 1092  vi sort.c
+ 1093  vi grep1.c
+ 1094  vi grep.c
+ 1095  vi reverse.c
+ 1096  ls
+ 1097  cd ..
+ 1098  cd Linux/
+ 1099  ls
+ 1100  cd cp4
+ 1101  ls
+ 1102  vi gmtime.c
+ 1103  gcc gmtime.c -o gmtime
+ 1104  ./gmtime 
+ 1105  vi gmtime.c
+ 1106  ls
+ 1107  time
+ 1108  date
+ 1109  ll
+ 1110  vi gmtime.c
+ 1111  gcc gmtime.c -o gmtime
+ 1112  ./gmtime 
+ 1113  vi gmtime.c
+ 1114  gcc gmtime.c -o gmtime
+ 1115  ./gmtime 
+ 1116  vi gmtime.c
+ 1117  ls
+ 1118  man gmtime
+ 1119  cp gmtime.c localtime.c
+ 1120  vi localtime.c 
+ 1121  gcc localtime.c -o localtime
+ 1122  ./localtime 
+ 1123  ./localtime ;./gmtime 
+ 1124  ls
+ 1125  vi test.c
+ 1126  gcc test.c
+ 1127  ./a.out 
+ 1128  vi test.c
+ 1129  gcc test.c
+ 1130  ./a.out 
+ 1131  vi test.c
+ 1132  gcc test.c
+ 1133  ./a.out 
+ 1134  vi test.c
+ 1135  gcc test.c
+ 1136  ./a.out 
+ 1137  ls
+ 1138  cp test.c ctime.c
+ 1139  vi ctime.c 
+ 1140  ls
+ 1141  ll
+ 1142  ./showenv 
+ 1143  cd /var/mail/
+ 1144  ls
+ 1145  cd ro
+ 1146  vi root 
+ 1147  mail
+ 1148  which mail
+ 1149  whereis mail
+ 1150  man mail
+ 1151  mail
+ 1152  apt-get install mailutils
+ 1153  mail
+ 1154  apt-get --fix-missing 
+ 1155  ls
+ 1156  cd /root/Documents/Linux/cp4
+ 1157  ls
+ 1158  vi strftime.c
+ 1159  gcc strftime.c -o strftime
+ 1160  ./strftime 
+ 1161  vi strftime.c
+ 1162  gcc strftime.c -o strftime
+ 1163  vi strftime.c
+ 1164  gcc strftime.c -o strftime
+ 1165  vi strftime.c
+ 1166  ./strftime 
+ 1167  vi strftime.c
+ 1168  gcc strftime.c -o strftime
+ 1169  ./strftime 
+ 1170  ls
+ 1171  cd Documents/Linux/
+ 1172  ls
+ 1173  cd cp4
+ 1174  ls
+ 1175  git pull origin master
+ 1176  ls
+ 1177  ftp 192.168.23.1
+ 1178  ls
+ 1179  make
+ 1180  ls
+ 1181  vi Makefile 
+ 1182  ls
+ 1183  make
+ 1184  ls
+ 1185  vi hostget.c
+ 1186  make
+ 1187  vi Makefile 
+ 1188  vi argc.c
+ 1189  mv argc.s args.c
+ 1190  mv argc.c args.c
+ 1191  make
+ 1192  vi argc.c
+ 1193  vi Makefile 
+ 1194  make
+ 1195  vi Makefile 
+ 1196  vi hostget.c 
+ 1197  make
+ 1198  ./hostget 
+ 1199  ls
+ 1200  vi hostget.c
+ 1201  make
+ 1202  ./hostget 
+ 1203  vi argopt.c
+ 1204  vi longopt.c
+ 1205  ls
+ 1206  vi syslog.c
+ 1207  make
+ 1208  ./syslog 
+ 1209  cat /var/log/syslog
+ 1210  cd /etc/
+ 1211  ls
+ 1212  ls |grep sys
+ 1213  vi rsyslog.conf 
+ 1214  cat rsyslog.d/50-default.conf 
+ 1215  exit
+ 1216  ls
+ 1217  cd Documents/
+ 1218  cd Linux/
+ 1219  ls
+ 1220  cd cp4
+ 1221  ls
+ 1222  man openlog
+ 1223  ls
+ 1224  exit
+ 1225  ls
+ 1226  mail
+ 1227  which mail
+ 1228  whereis mail
+ 1229  ls
+ 1230  vi regular_express.txt
+ 1231  vi pay.sh
+ 1232  vi pay.txt 
+ 1233  vi printf.txt
+ 1234  vi diff.txt 
+ 1235  vi catfile 
+ 1236  cd Documents/Linux/
+ 1237  ls
+ 1238  cd cp4
+ 1239  ls
+ 1240  ./syslog 
+ 1241  vi catfile 
+ 1242  vi syslog.c
+ 1243  make
+ 1244  ./syslog 
+ 1245  vi logmask.c
+ 1246  make
+ 1247  ./logmask 
+ 1248  vi logmask.c
+ 1249  make
+ 1250  ./logmask 
+ 1251  vi logmask.c
+ 1252  make
+ 1253  ./logmask 
+ 1254  vi logmask.c
+ 1255  make
+ 1256  ./logmask 
+ 1257  vi logmask.c
+ 1258  make
+ 1259  ./logmask 
+ 1260  vi logmask.c
+ 1261  man pathconf
+ 1262  vi limits.c
+ 1263  make
+ 1264  vi limits.c
+ 1265  make
+ 1266  vi limits.c
+ 1267  gcc limits.c -o limits -lm
+ 1268  gcc -lm limits.c -o limits
+ 1269  vi Makefile 
+ 1270  ls
+ 1271  gcc limits.c -o limits -lm
+ 1272  ./limits 
+ 1273  vi Makefile 
+ 1274  vi limits.c
+ 1275  gcc limits.c -o limits -lm
+ 1276  ./limits 
+ 1277  vi limits.c
+ 1278  gcc limits.c -o limits -lm
+ 1279  ./limits 
+ 1280  vi limits.c
+ 1281  vi Makefile 
+ 1282  make
+ 1283  vi Makefile 
+ 1284  gcc limits.c -o limits -lm
+ 1285  ./limits 
+ 1286  vi Makefile 
+ 1287  vi limits
+ 1288  vi limits.c
+ 1289  man nice
+ 1290  nice ./limits 
+ 1291  ./limits 
+ 1292  man nice
+ 1293  nice -19 ./limits 
+ 1294  nice -20 ./limits 
+ 1295  nice -1 ./limits 
+ 1296  nice --1 ./limits 
+ 1297  nice --20 ./limits 
+ 1298  nice -20 ./limits 
+ 1299  ls
+ 1300  man nice
+ 1301  vi Makefile 
+ 1302  man ld
+ 1303  gcc --version
+ 1304  make
+ 1305  ls
+ 1306  rm -f
+ 1307  ls
+ 1308  make clean
+ 1309  ls
+ 1310  make
+ 1311  ls
+ 1312  exit
+ 1313  cd /var/adm/
+ 1314  cd /var/log/
+ 1315  ls
+ 1316  cat syslog
+ 1317  ll
+ 1318  cat syslog
+ 1319  cd /usr
+ 1320  ls
+ 1321  cd include/
+ 1322  ls
+ 1323  vi limits.h 
+ 1324  ls
+ 1325  vi printf.h 
+ 1326  ls
+ 1327  cd i386-linux-gnu/
+ 1328  ls
+ 1329  cd sys
+ 1330  ls
+ 1331  vi resource.h 
+ 1332  ls
+ 1333  man getrusage
+ 1334  man -f getrusage
+ 1335  getrusage
+ 1336  man setpriority
+ 1337  man setrlimit
+ 1338  vi
+ 1339  ulimit
+ 1340  ulimited
+ 1341  ulimit ?
+ 1342  man ulimit 
+ 1343  ulimit -a
+ 1344  cat /var/log/syslog
+ 1345  exit
+ 1346  ls
+ 1347  vi man.config 
+ 1348  cd Documents/
+ 1349  ls
+ 1350  cd Linux/cp4
+ 1351  ls
+ 1352  cd ..
+ 1353  ls
+ 1354  mkdir cp5
+ 1355  cd ..
+ 1356  cd Linux/cp4
+ 1357  ls
+ 1358  vi syslog
+ 1359  vi syslog.c
+ 1360  vi logmask.c
+ 1361  ls
+ 1362  vi limits.c 
+ 1363  ls
+ 1364  vi hostget.c
+ 1365  ls
+ 1366  vi longopt.c
+ 1367  ls
+ 1368  vi Makefile 
+ 1369  cp Makefile ../cp5/
+ 1370  ls
+ 1371  cd ..
+ 1372  cd cp5
+ 1373  ls
+ 1374  vi Makefile 
+ 1375  vi menu1.c
+ 1376  make
+ 1377  vi menu1.c
+ 1378  make
+ 1379  vi menu1.c
+ 1380  make
+ 1381  vi menu1.c
+ 1382  make
+ 1383  ./menu1 
+ 1384  vi menu1.c
+ 1385  make
+ 1386  ./menu1 
+ 1387  vi menu1.c
+ 1388  gcc -g menu1.c -o menu1
+ 1389  gdb menu1
+ 1390  make
+ 1391  ./menu1 
+ 1392  vi menu1.c
+ 1393  make
+ 1394  ./menu1 
+ 1395  ls
+ 1396  cp menu1.c test.c
+ 1397  unix2dos test.c 
+ 1398  cat test.c 
+ 1399  :q
+ 1400  man cat
+ 1401  cat -A test.c 
+ 1402  cat -A menu1.c
+ 1403  ls
+ 1404  rm -f test.c 
+ 1405  ls
+ 1406  cp menu1.c menu2.c
+ 1407  vi Makefile 
+ 1408  make
+ 1409  ./menu
+ 1410  ./menu2
+ 1411  vi menu2.c
+ 1412  make
+ 1413  ./menu2
+ 1414  ./menu2 > file
+ 1415  man fileno
+ 1416  vi menu2.c
+ 1417  man isatty
+ 1418  cp menu2.c menu3.c
+ 1419  vi Makefile 
+ 1420  vi menu3.c
+ 1421  make
+ 1422  vi menu3.c
+ 1423  make
+ 1424  vi menu3.c
+ 1425  make
+ 1426  ./menu
+ 1427  ./menu3
+ 1428  vi menu3.c
+ 1429  cat /dev/tty
+ 1430  ls /dev
+ 1431  tty
+ 1432  ./menu3
+ 1433  ./menu3 > file
+ 1434  vi menu3.c
+ 1435  tty
+ 1436  ls
+ 1437  man tty
+ 1438  vi menu3.c
+ 1439  make
+ 1440  ./menu > file
+ 1441  ./menu3 > file
+ 1442  ls
+ 1443  vi file 
+ 1444  vi menu3.c
+ 1445  ls
+ 1446  man termios
+ 1447  stty -a
+ 1448  ls
+ 1449  cd /usr/lib/
+ 1450  ls |grep term
+ 1451  cd /usr/share/terminfo
+ 1452  ls
+ 1453  cd v/
+ 1454  ls
+ 1455  vi vt100
+ 1456  ls
+ 1457  file vt100
+ 1458  vi vsc
+ 1459  file vt131
+ 1460  cd ..
+ 1461  la
+ 1462  cd 1
+ 1463  ls
+ 1464  cd ..
+ 1465  cd x
+ 1466  ls
+ 1467  file xterm1
+ 1468  infocmp xterm1
+ 1469  man tic
+ 1470  tic xtalk
+ 1471  cd ..
+ 1472  cd v
+ 1473  infocmp vt100
+ 1474  ls
+ 1475  cd /root/Documents/
+ 1476  ls
+ 1477  cd ncurses-5.9/
+ 1478  ls
+ 1479  cd test/
+ 1480  ls
+ 1481  vi hanoi.c 
+ 1482  ls
+ 1483  cd -
+ 1484  cd /root/Documents/Linux/cp5
+ 1485  ls
+ 1486  vi badterm.c 
+ 1487  make
+ 1488  vi badterm.c 
+ 1489  make
+ 1490  gcc badterm.c -o badterm -lncurses
+ 1491  ./badterm 
+ 1492  vi Makefile 
+ 1493  ks
+ 1494  ls
+ 1495  man terminfo
+ 1496  vi Makefile 
+ 1497  vi sizeterm.c
+ 1498  make
+ 1499  vi Makefile 
+ 1500  make
+ 1501  vi Makefile 
+ 1502  make
+ 1503  vi Makefile 
+ 1504  make all
+ 1505  vi Makefile 
+ 1506  make
+ 1507  vi Makefile 
+ 1508  make
+ 1509  vi Makefile 
+ 1510  gcc sizeterm.c -o sizeterm -lncurses
+ 1511  ./sizeterm 
+ 1512  echo $term
+ 1513  echo $TERM
+ 1514  terminfo
+ 1515  vi Makefile 
+ 1516  vi sizeterm.c
+ 1517  gcc sizeterm.c -o sizeterm -lncurses
+ 1518  ./sizeterm 
+ 1519  vi sizeterm.c
+ 1520  gcc sizeterm.c -o sizeterm -lncurses
+ 1521  vi sizeterm.c
+ 1522  ./sizeterm 
+ 1523  vi sizeterm.c
+ 1524  1v
+ 1525  vi sizeterm.c
+ 1526  gcc sizeterm.c -o sizeterm -lncurses
+ 1527  vi sizeterm.c
+ 1528  gcc sizeterm.c -o sizeterm -lncurses
+ 1529  ./sizeterm 
+ 1530  vi sizeterm.c
+ 1531  ls
+ 1532  vi sizeterm.c
+ 1533  gcc sizeterm.c -o sizeterm -lncurses
+ 1534  ./sizeterm 
+ 1535  vi sizeterm.c
+ 1536  gcc sizeterm.c -o sizeterm -lncurses
+ 1537  ./sizeterm 
+ 1538  vi sizeterm.c
+ 1539  gcc sizeterm.c -o sizeterm -lncurses
+ 1540  ./sizeterm 
+ 1541  ls
+ 1542  man tputs
+ 1543  cp menu4.c
+ 1544  cp menu4.c menu5.c
+ 1545  vi menu5.c 
+ 1546  gcc menu5.c -o menu5 -lncurses
+ 1547  ./menu5
+ 1548  vi menu5.c 
+ 1549  gcc menu5.c -o menu5 -lncurses
+ 1550  ./menu5
+ 1551  vi menu5.c 
+ 1552  gcc menu5.c -o menu5 -lncurses
+ 1553  ./menu5
+ 1554  ls
+ 1555  vi file 
+ 1556  ls
+ 1557  ./menu5
+ 1558  vi file 
+ 1559  vi menu5.c
+ 1560  ps -ef
+ 1561  ps -ef|grep menu
+ 1562  kill HUP 16915
+ 1563  ps -ef|grep menu
+ 1564  exit
+ 1565  ls
+ 1566  cd Documents/
+ 1567  cd Linux/cp5
+ 1568  s
+ 1569  ls
+ 1570  stty -a
+ 1571  man stty
+ 1572  stty -icanon min 1 time 0
+ 1573  ./menu1 
+ 1574  stty -a
+ 1575  stty icanon
+ 1576  ./menu1
+ 1577  ls
+ 1578  l
+ 1579  ll
+ 1580  ll -A
+ 1581  cd ..
+ 1582  stty -echo
+ 1583  cd cp2
+ 1584  ls
+ 1585  stty echo
+ 1586  ls
+ 1587  echo
+ 1588  stty -a
+ 1589  stty -echo
+ 1590  stty -a
+ 1591  stty echo
+ 1592  ls
+ 1593  cd ../cp5
+ 1594  speed
+ 1595  man cfgetispeed
+ 1596  ls
+ 1597  vi Makefile 
+ 1598  vi password.c
+ 1599  make
+ 1600  vi password.c
+ 1601  make
+ 1602  vi password.c
+ 1603  make
+ 1604  vi password.c
+ 1605  make
+ 1606  ./password 
+ 1607  vi password.c
+ 1608  ls
+ 1609  ll
+ 1610  ls
+ 1611  .
+ 1612  ls
+ 1613  .
+ 1614  . .
+ 1615  ..
+ 1616  ..\/..
+ 1617  ...\-,-./^/
+ 1618  game
+ 1619  name
+ 1620  mame
+ 1621  l
+ 1622  ll
+ 1623  .
+ 1624  fuck
+ 1625  suck
+ 1626  fsck
+ 1627  q
+ 1628  history
+ 1629  stty
+ 1630  stty -a
+ 1631  stty rows 26
+ 1632  stty
+ 1633  stty -a
+ 1634  ll
+ 1635  vi password.c
+ 1636  ls
+ 1637  vi Makefile 
+ 1638  cp menu3.c menu4.c
+ 1639  vi menu4.c
+ 1640  make
+ 1641  vi menu4.c
+ 1642  make
+ 1643  vi menu4.c
+ 1644  make
+ 1645  vi menu4.c
+ 1646  make
+ 1647  ./menu4
+ 1648  ls
+ 1649  echo $TERM
+ 1650  man infocmp
+ 1651  ls
+ 1652  vi Makefile 
+ 1653  vi badterm.c
+ 1654  make
+ 1655  vi badterm.c
+ 1656  make
+ 1657  man ncurses
+ 1658  man ncurses.h
+ 1659  ftp://ftp.gnu.org/pub/gnu/ncurses/ncurses.tar.gz
+ 1660  vi badterm.c
+ 1661  ls
+ 1662  ftp 192.168.23.1
+ 1663  ls
+ 1664  mv ncurses-5.9.tar.gz /root/Documents/
+ 1665  cd /root/Documents/
+ 1666  ls
+ 1667  tar zxvf ncurses-5.9.tar.gz ncurses-5.9
+ 1668  cd ncurses-5.9/
+ 1669  ls
+ 1670  ./configure 
+ 1671  make 
+ 1672  make install
+ 1673  ls
+ 1674  cd test/
+ 1675  ls
+ 1676  make
+ 1677  ./hanoi 
+ 1678  ./gdc
+ 1679  ls
+ 1680  ./rain
+ 1681  ./savescreen
+ 1682  ./tclock 
+ 1683  ./worm
+ 1684  ./cardfile 
+ 1685  ./inchs
+ 1686  ./firework 
+ 1687  ./knight 
+ 1688  ls
+ 1689  cd ..
+ 1690  ls
+ 1691  cd progs/
+ 1692  ls
+ 1693  cd ..
+ 1694  cd doc
+ 1695  ls
+ 1696  cd ..
+ 1697  cd test/
+ 1698  ls
+ 1699  ./keynames 
+ 1700  ls
+ 1701  vi Makefile
+ 1702  ls
+ 1703  cd ..
+ 1704  ls
+ 1705  vi Makefile
+ 1706  cd /usr/share/terminfo/
+ 1707  ls
+ 1708  cd x
+ 1709  ls
+ 1710  infocmp xterm
+ 1711  ls
+ 1712  cd /root/Documents/Linux/cp5
+ 1713  ls
+ 1714  ./menu5
+ 1715  q
+ 1716  qq
+ 1717  q
+ 1718  ls
+ 1719  vi menu5.c
+ 1720  gcc menu5.c -o menu5 -lncurses
+ 1721  ./menu5
+ 1722  vi menu5.c
+ 1723  ls
+ 1724  cd ..
+ 1725  la
+ 1726  ls
+ 1727  cd ..
+ 1728  ls
+ 1729  tar -zcvf linux.tar.gz Linux/*
+ 1730  ftp 192.168.23.1
+ 1731  exit
+ 1732  cd Documents/Linux/cp5
+ 1733  gdb ./kbhit 17673
+ 1734  gcc menu5.c -o menu5 -lncurses
+ 1735  man ncurese
+ 1736  man ncurses
+ 1737  ls
+ 1738  ll
+ 1739  vi file 
+ 1740  ls
+ 1741  vi menu5.c
+ 1742  ls
+ 1743  ll
+ 1744  man memset
+ 1745  memset
+ 1746  exit
+ 1747  ls
+ 1748  cd Documents/Linux/cp5
+ 1749  ls
+ 1750  vi kbhit.c
+ 1751  gcc kbhit.c -o kbhit -lncurses
+ 1752  vi kbhit.c
+ 1753  gcc kbhit.c -o kbhit -lncurses
+ 1754  ./kbhit 
+ 1755  lds
+ 1756  vi kbhit.c
+ 1757  ls
+ 1758  ./kbhit 
+ 1759  vi kbhit.c
+ 1760  gcc kbhit.c -o kbhit -lncurses
+ 1761  ./kbhit 
+ 1762  vi kbhit.c
+ 1763  gcc kbhit.c -o kbhit -lncurses
+ 1764  ./kbhit 
+ 1765  vi kbhit.c
+ 1766  gcc kbhit.c -o kbhit -lncurses
+ 1767  ./kbhit 
+ 1768  vi kbhit.c
+ 1769  ls
+ 1770  gcc kbhit.c -o kbhit -lncurses
+ 1771  gcc -g kbhit.c -o kbhit -lncurses
+ 1772  gdb kbhit 
+ 1773  ls
+ 1774  ./kbhit &
+ 1775  gdb 17673
+ 1776  y
+ 1777  ls
+ 1778  vi kbhit.c
+ 1779  who
+ 1780  ps -e
+ 1781  l
+ 1782  cd ..
+ 1783  ls
+ 1784  mkdir cp6
+ 1785  cd cp6
+ 1786  ls
+ 1787  ls -l /usr/include/*curses.h
+ 1788  ls -l /usr/lib/lib*curses*
+ 1789  ls
+ 1790  vi hello.c
+ 1791  gcc hello.c -o hello -lncurses
+ 1792  vi hello.c
+ 1793  gcc hello.c -o hello -lncurses
+ 1794  ./hello 
+ 1795  vi hello.c
+ 1796  gcc hello.c -o hello -lncurses
+ 1797  ./hello 
+ 1798  vi hello.c
+ 1799  echo $TERM
+ 1800  vi hello.c
+ 1801  gcc hello.c -o hello -lncurses
+ 1802  ./hello 
+ 1803  vi hello.c
+ 1804  gcc hello.c -o hello -lncurses
+ 1805  ./hello 
+ 1806  refresh
+ 1807  clear
+ 1808  vi hello.c
+ 1809  gcc hello.c -o hello -lncurses
+ 1810  ./hello 
+ 1811  ls
+ 1812  vi hello.c
+ 1813  gcc hello.c -o hello -lncurses
+ 1814  ./hello 
+ 1815  l
+ 1816  ps -ef
+ 1817  ls
+ 1818  man clearok
+ 1819  man clear
+ 1820  man 3 clear
+ 1821  ls
+ 1822  man 3 clear
+ 1823  man instr
+ 1824  man initstrc
+ 1825  man initstr
+ 1826  man initscr
+ 1827  man stdscr
+ 1828  man WINDOW
+ 1829  ls
+ 1830  vi moveadd.c
+ 1831  gcc moveadd.c -o moveadd -lncurses
+ 1832  ./moveadd 
+ 1833  vi moveadd.c
+ 1834  gcc moveadd.c -o moveadd -lncurses
+ 1835  ./moveadd 
+ 1836  vi moveadd.c
+ 1837  ./moveadd 
+ 1838  gcc moveadd.c -o moveadd -lncurses
+ 1839  ./moveadd 
+ 1840  vi moveadd.c
+ 1841  gcc moveadd.c -o moveadd -lncurses
+ 1842  ./moveadd 
+ 1843  vi moveadd.c
+ 1844  ./moveadd 
+ 1845  vi ipmode.c
+ 1846  gcc ipmode.c -o ipmode -lncurses
+ 1847  vi ipmode.c
+ 1848  gcc ipmode.c -o ipmode -lncurses
+ 1849  ./ipmode 
+ 1850  vi ipmode.c
+ 1851  ls
+ 1852  ./ipmode 
+ 1853  vi ipmode.c
+ 1854  gcc ipmode.c -o ipmode -lncurses
+ 1855  ./ipmode 
+ 1856  vi ipmode.c
+ 1857  ls
+ 1858  exit
+ 1859  ls
+ 1860  cd Documents/
+ 1861  ls
+ 1862  cd Linux/
+ 1863  ls
+ 1864  mkdir ch07
+ 1865  cd ch07/
+ 1866  ls
+ 1867  vi memory1.c
+ 1868  gcc memory1.c -o memory1
+ 1869  ./memory1 
+ 1870  mem
+ 1871  memory
+ 1872  uname -a
+ 1873  free
+ 1874  cp memory1.c memory2.c
+ 1875  vi memory2.c
+ 1876  gcc memory2.c -o memory2
+ 1877  ./memory2
+ 1878  vi memory2.c
+ 1879  gcc memory2.c -o memory2
+ 1880  ./memory2
+ 1881  vi memory2.c
+ 1882  gcc memory2.c -o memory2
+ 1883  ./memory2
+ 1884  free
+ 1885  vi memory2.c
+ 1886  gcc memory2.c -o memory2
+ 1887  ./memory2
+ 1888  vi memory3.c
+ 1889  exit
+ 1890  ls
+ 1891  cd Documents/Linux/
+ 1892  ls
+ 1893  cd cp6
+ 1894  ls
+ 1895  cd ..
+ 1896  git pull 
+ 1897  mkdir cp7
+ 1898  cd cp7
+ 1899  ls
+ 1900  ftp 192.168.23.1
+ 1901  ls
+ 1902  vi lock2.c
+ 1903  vi Makefile 
+ 1904  vi lock2.c 
+ 1905  make
+ 1906  ./lock2 
+ 1907  ls
+ 1908  ls /tmp/LCK
+ 1909  ls /tmp
+ 1910  ./lock2 & ./lock2 
+ 1911  ./lock2 
+ 1912  ls /tmp/
+ 1913  ll
+ 1914  vi lock3.c
+ 1915  vi lock4.c
+ 1916  make
+ 1917  vi lock4.c
+ 1918  make
+ 1919  ./lock3 &
+ 1920  ./lock4
+ 1921  vi /usr/include/fcntl.h 
+ 1922  vi lock5.c
+ 1923  make
+ 1924  ls
+ 1925  vi lock5.c
+ 1926  make
+ 1927  ./lock3 &
+ 1928  ./lock5
+ 1929  exit
+ 1930  cd Documents/Linux/cp7
+ 1931  ls
+ 1932  ./lock2 
+ 1933  ls
+ 1934  cd ..
+ 1935  tar -zcvf cp7.tar.gz cp7/*
+ 1936  ftp 192.168.23.1
+ 1937  quit
+ 1938  exit
+ 1939  ls
+ 1940  cd Documents/Linux/cp5
+ 1941  ls
+ 1942  ls /usr/share
+ 1943  ls /usr/include/
+ 1944  ls /usr/include/ |grep dbm
+ 1945  apt-get install libgdbm-dev 
+ 1946  ls
+ 1947  cd ..
+ 1948  cd cp7
+ 1949  ls
+ 1950  vi Makefile 
+ 1951  ll
+ 1952  ftp 192.168.23.1
+ 1953  ls
+ 1954  vi Makefile 
+ 1955  make
+ 1956  vi dbm1.c 
+ 1957  make
+ 1958  cp dbm1.c dbm2.c
+ 1959  vi dbm2.c
+ 1960  make
+ 1961  ./dbm2
+ 1962  vi dbm2.c
+ 1963  ls
+ 1964  www
+ 1965  ls
+ 1966  mkdir app
+ 1967  vi cd app
+ 1968  cd app
+ 1969  ls
+ 1970  touch cd_data.h app_ui.c cd_access.c
+ 1971  ls
+ 1972  vi cd_data.h 
+ 1973  vi app_ui.c 
+ 1974  ls
+ 1975  mysql
+ 1976  apt-get install mysql-server
+ 1977  apt-get update
+ 1978  apt-get install mysql-server
+ 1979  ps -el |grep mysqld
+ 1980  ps -ef |grep mysqld
+ 1981  cd ..
+ 1982  mkdir cp8
+ 1983  cd cp8
+ 1984  mysql -u root toor
+ 1985  mysql -u root 
+ 1986  mysql -u root mysql
+ 1987  mysql
+ 1988  mysql -u root
+ 1989  mysql -u root -p toor
+ 1990  mysql -u root -p mysql
+ 1991  man mysql
+ 1992  mysql -u root -p mysql
+ 1993  mysqladmin -u root version
+ 1994  mysqladmin -u root -p version
+ 1995  mysqladmin variable
+ 1996  mysqladmin -p variable
+ 1997  mysqladmin -p variable|more
+ 1998  mysqladmin -p variable|mo
+ 1999  EXIT
+ 2000  exit
+ 2001  cd Documents/Linux/cp8
+ 2002  lsd
+ 2003  ls
+ 2004  mysqladmin variables > variables.txt
+ 2005  mysqladmin -p variables > variables.txt
+ 2006  ls
+ 2007  vi variables.txt 
+ 2008  ls
+ 2009  vi /etc/mysql/my.cnf 
+ 2010  mysqladmin -u root password toor
+ 2011  mysqladmin -u root -p toor
+ 2012  mysql -u root -p 
+ 2013  history
+ 2014  history|grep -p
+ 2015  history > history.txt
