@@ -1,0 +1,79 @@
+head	1.3;
+access;
+symbols;
+locks
+	root:1.3; strict;
+comment	@ * @;
+
+
+1.3
+date	2013.06.05.01.27.42;	author root;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2013.06.05.01.20.28;	author root;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2013.06.05.01.16.44;	author root;	state Exp;
+branches;
+next	;
+
+
+desc
+@This is an important demostration file
+@
+
+
+1.3
+log
+@Add $RCSfile$ and $Id$ strings
+@
+text
+@/* main.c */
+#include <stdlib.h>
+#include "a.h"
+
+extern void function_two();
+extern void function_three();
+
+/*
+ * This is an important file for managing this project.
+ * It implements the canonical "Hello world" program.
+ * Filename $RCSfile$
+ */
+static char *RCSinfo = "$Id$";
+
+int main()
+{
+		function_two();
+		function_three();
+		printf("This file is under RCS control.Its ID is \n%s\n",RCSinfo);
+		exit(EXIT_SUCCESS);
+}
+
+
+@
+
+
+1.2
+log
+@the version 1.2
+@
+text
+@d8 7
+a14 1
+/* the version 1.2 */
+d19 1
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d8 1
+@

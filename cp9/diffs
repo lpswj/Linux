@@ -1,0 +1,17 @@
+*** file1.c	2013-06-05 09:57:53.933828519 +0800
+--- file2.c	2013-06-05 09:54:36.461839524 +0800
+***************
+*** 1,5 ****
+! This is file one
+  line 2
+  line 3
+! there is no line 4,this is line 5
+  line 6
+--- 1,7 ----
+! This is file two
+  line 2
+  line 3
+! line 4
+! line 5
+  line 6
++ a new line 8
